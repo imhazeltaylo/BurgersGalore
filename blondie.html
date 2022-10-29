@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Blondie by Yankys</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="blondie.js"></script>
+    <link rel="stylesheet" href="mainpagestyles.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Freckle+Face&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Navigation Tab-->
+    <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left navigation-text" id="mySidebar">
+      <a href="blondie.html" onclick="w3_close()" class="w3-bar-item w3-button">☰</a>
+      <a href="mainpage.html#" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+      <a href="mainpage.html#food" onclick="w3_close()" class="w3-bar-item w3-button">Burgers</a>
+      <a href="mainpage.html#about" onclick="w3_close()" class="w3-bar-item w3-button">About us</a>
+    </nav>
+
+    <!-- Top menu -->
+    <div class="w3-top">
+      <div class="w3-white w3-xlarge top-menu">
+        <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+        <div class="w3-center w3-padding-16 top-menu-name">Burgers Galore</div>
+      </div>
+    </div>
+
+    <div>
+      <h3 style="padding-top: 150px; font-size: 50px; color: #070971;">BLONDIE</h3>
+      <h3 style="color: #070971;">Delicious steak burger.</h3>
+      <img src="images/blondie-burger.jpg" alt="blondie-burger.jpg">
+      <h3 style="color: #070971;">Restaurant Name: Yankys.</h3>
+      <a href="http://yankyslambton.co.za/menu/">ORDER NOW!</a>
+    </div>
+    <script>
+      // Script to open and close sidebar
+      function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+      }
+     
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+      }
+      </script>
+  </body>
+</html>

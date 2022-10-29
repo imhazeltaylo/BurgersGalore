@@ -1,0 +1,59 @@
+body{
+    background-color: #E7DA8C; 
+    text-align: center;
+}
+h1,h5,h6 {
+    font-family: "Karma", sans-serif;
+}
+h2,h4{
+    font-family: "Changa";
+}
+h3{
+    font-family: "Changa";
+    color: #6D2118;
+}
+.w3-bar-block .w3-bar-item{
+    padding:20px
+}
+.w3-row-padding w3-padding-32{
+    text-align: center;
+}
+.w3-third{
+    margin: auto;
+}
+.w3-image{
+    display:block;
+    margin:auto;
+}
+.navigation-text{
+    display:none;
+    z-index:2;
+    width:40%;
+    min-width:300px
+}
+.top-menu{
+    max-width:1200px;
+    margin:auto;
+}
+.top-menu-name{
+    font-size: 35px;
+    font-family: 'Bungee Inline'; 
+    color: #6D2118;
+}
+.home-page{
+    max-width:1200px;
+    margin-top:100px;
+}
+.welcome-text{
+    font-size:50px;
+    font-family: 'Bungee Inline';
+    color: #6D2118;
+}
+.burger-img{
+    width:260px;
+    height:260px;
+}
+.about-section{
+    font-family: 'Bungee Inline'; 
+    font-size: 50px;
+}
